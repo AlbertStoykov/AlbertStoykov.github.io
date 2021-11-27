@@ -1,4 +1,4 @@
 # AlbertStoykov.github.io
-Rock-Paper-Scissors Game
-Game developed to test and improve my HTML/CSS and Javascript skills.
+<br>Rock-Paper-Scissors Game<br>
+Game developed to test and improve my HTML/CSS and Javascript skills.<br>
 Practiced how to use getElementById, querySelector, Math.random and more...
