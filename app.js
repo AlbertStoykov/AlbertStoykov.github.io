@@ -26,7 +26,7 @@ function win(userChoice, pcChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     pcScore_span.innerHTML = pcScore;
-    result_p.innerHTML = `Your ${wordConvert(userChoice)} wins over PC's ${wordConvert(pcChoice)} . You Win!`;
+    result_p.innerHTML = `Your ${wordConvert(userChoice)} wins over PC's ${wordConvert(pcChoice)}. You Win!`;
     userChoice_div.classList.add("green-glow");
     setTimeout(() => userChoice_div.classList.remove("green-glow"), 300);
 }
@@ -36,14 +36,14 @@ function lose(userChoice, pcChoice) {
     pcScore++;
     userScore_span.innerHTML = userScore;
     pcScore_span.innerHTML = pcScore;
-    result_p.innerHTML = `Your ${wordConvert(userChoice)} loses to PC's ${wordConvert(pcChoice)} . You Lose!`; 
+    result_p.innerHTML = `Your ${wordConvert(userChoice)} loses to PC's ${wordConvert(pcChoice)}. You Lose!`; 
     userChoice_div.classList.add("red-glow");
     setTimeout(() => userChoice_div.classList.remove("red-glow"), 300);
 }
 
 function draw(userChoice, pcChoice) {
     const userChoice_div = document.getElementById(userChoice);
-    result_p.innerHTML = `Your ${wordConvert(userChoice)} equals PC's ${wordConvert(pcChoice)} . It's a draw..`;
+    result_p.innerHTML = `Your ${wordConvert(userChoice)} equals PC's ${wordConvert(pcChoice)}. It's a draw..`;
     userChoice_div.classList.add("gray-glow");
     setTimeout(() => userChoice_div.classList.remove("gray-glow"), 300);
 }
